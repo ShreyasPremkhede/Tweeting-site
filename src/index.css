@@ -1,0 +1,255 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #45a049;
+}
+
+.auth-container .google-button {
+  background-color: #db4437;
+}
+
+.auth-container .google-button:hover {
+  background-color: #c33d2d;
+}
+
+.auth-container .logout-button {
+  background-color: #f44336;
+}
+
+.auth-container .logout-button:hover {
+  background-color: #e53935;
+}
+
+.error-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-dialog-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.error-dialog-content h2 {
+  margin-top: 0;
+}
+
+.error-dialog-content button {
+  margin-top: 10px;
+}
+
+/* App.css */
+
+.auth-container,
+.signup-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.auth-container h2,
+.signup-container h2 {
+  text-align: center;
+}
+
+.input-email,
+.input-password,
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.google-button {
+  margin-top: 10px;
+  background-color: #de5246;
+}
+
+.google-button:hover {
+  background-color: #c94c3b;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-link {
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+.posts-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  max-height: 80vh; /* Limit height to 80% of viewport */
+}
+
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post-actions button:hover {
+  background-color: #0056b3;
+}
+
+.posts-actions button.delete-button ::after {
+  background-color: #dc3545;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.comments-section .comment {
+  margin-top: 5px;
+  padding: 5px;
+  border-top: 1px solid #ddd;
+}
+
+.comment-actions {
+  margin-top: 5px;
+}
+
+.comment-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-actions button:hover {
+  background-color: #0056b3;
+}
+
+.comments-section input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
